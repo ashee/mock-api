@@ -8,7 +8,6 @@
 # push:
 #   docker push ashee/mock-api
 #
-#
 
 ### BASE
 FROM node:8.9.4-alpine AS base

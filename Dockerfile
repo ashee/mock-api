@@ -4,7 +4,7 @@
 # build:
 #   docker build --force-rm -t ashee/mock-api .
 # run:
-#   docker run --rm -it --name mock-api -p 8080:8080 ashee/mock-api
+#   docker run --rm -it --name mock-api -p 3000:3000 ashee/mock-api
 # push:
 #   docker push ashee/mock-api
 #

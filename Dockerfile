@@ -30,7 +30,6 @@ RUN yarn --production
 RUN cp -R node_modules /tmp/node_modules
 RUN yarn
 
-
 ### RELEASE
 FROM base AS release
 COPY --from=dependencies /tmp/node_modules ./node_modules
